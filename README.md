@@ -1,14 +1,14 @@
-Compiler Design Mini-Project
-===============================
+Compiler Design Mini-Project for C language
+============================================
 
 ### Team Members
  1. Anant Singh - 211cs104
  2. Harsh Vardhan Singh - 211cs128
  3. Ansh Rajvanshi - 211cs106
 
-# Lexical Analyser for the C langauge
+# Lexical Analyzer
 
-This folder contains the code for the Lexical Analyser.
+This folder contains the code for the Lexical Analyzere.
 
 |file|contents|
 |----|--------|
@@ -16,5 +16,22 @@ This folder contains the code for the Lexical Analyser.
 |symboltable.h|symbol table implementation using hash organisation|
 |tokens.h| tokens used (as enums)|
 
-The test cases are in the test-cases folder.
-The details about each test case is written in the header section of each file.
+# Syntax Analyzer
+
+This folder contains the code for the Syntax/Parser Analyzer.
+
+|file|contents|
+|----|--------|
+|syntax.l| lex file with rules|
+|syntax.y|[ definitions ] %% [ rules ] [ %% [ user functions ]|
+
+# Semantic Analyzer
+
+This folder contains the code for the Semantic Analyzer.
+
+|file|contents|
+|----|--------|
+|scanner.l|Extended regular expressions, Character patterns, Definitions, Translations, Functions, Rules, Actions|
+|parser.y|[ definitions ] %% [ rules ] [ %% [ user functions ]|
+
+The test cases are in the test-cases/tests folder.
