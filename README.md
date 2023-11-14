@@ -34,4 +34,4 @@ This folder contains the code for the Semantic Analyzer.
 |scanner.l|Extended regular expressions, Character patterns, Definitions, Translations, Functions, Rules, Actions|
 |parser.y|[ definitions ] %% [ rules ] [ %% [ user functions ]|
 
-The test cases are in the test-cases/tests folder.
+###The test cases are in the test-cases/tests folder.
