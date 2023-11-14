@@ -1,12 +1,12 @@
 Compiler Design Mini-Project
 ===============================
 
-# Lexical Analyser for the C langauge
-
 ### Team Members
  1. Anant Singh - 211cs104
  2. Harsh Vardhan Singh - 211cs128
  3. Ansh Rajvanshi - 211cs106
+
+# Lexical Analyser for the C langauge
 
 This folder contains the code for the Lexical Analyser.
 
