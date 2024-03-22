@@ -23,7 +23,7 @@ This folder contains the code for the Syntax/Parser Analyzer.
 |file|contents|
 |----|--------|
 |syntax.l| lex file with rules|
-|syntax.y|[ definitions ] %% [ rules ] [ %% [ user functions ]|
+|syntax.y|[ definitions ] %% [ rules ] %% [ user functions ]|
 
 # Semantic Analyzer
 
